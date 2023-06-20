@@ -1,0 +1,586 @@
+2023.06.20 09:11:59 INFO  Started: Metals version 0.11.12 in workspace 'E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src' for client Visual Studio Code 1.77.2.
+Jun 20, 2023 9:11:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 20, 2023 9:11:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 20, 2023 9:11:59 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\.metals\metals (H2 2.1)
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 20, 2023 9:12:00 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.067s)
+2023.06.20 09:12:00 INFO  time: initialize in 0.9s
+2023.06.20 09:12:00 WARN  Build server is not auto-connectable.
+2023.06.20 09:12:00 WARN  no build tool detected in workspace 'E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.06.20 09:12:01 WARN  no build target for: E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java
+2023.06.20 09:12:02 WARN  Running javac-semanticdb failed for file:///E:/Mine/AMRITA%20STUFF/SEM%202/21AIE111-Data%20Structure%20&%20Algorithms/Project/Code/DSA-END_SEM-2-main/src/announcements.java. Output:
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:17: error: cannot find symbol
+    System.out.println(ConsoleColors.BLACK_BOLD+"----------------------------------------------------------------------------"+"\u001B[0m");
+                       ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:18: error: cannot find symbol
+    System.out.println("               "+ConsoleColors.GREEN_BOLD+"###   WRITE THE NOTICE   ###"+"\u001B[0m");
+                                         ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:19: error: cannot find symbol
+    System.out.println(ConsoleColors.BLACK_BOLD+"----------------------------------------------------------------------------"+"\u001B[0m");
+                       ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:22: error: cannot find symbol
+    System.out.println(ConsoleColors.BLACK_BOLD+"                  --------------------------"+"\u001B[0m");
+                       ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:23: error: cannot find symbol
+    System.out.println(ConsoleColors.BLUE_BOLD+"                   |  Updated Successfully |"+"\u001B[0m");
+                       ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:24: error: cannot find symbol
+    System.out.println(ConsoleColors.BLACK_BOLD+"                  --------------------------"+"\u001B[0m");
+                       ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:37: error: cannot find symbol
+        System.out.println(ConsoleColors.GREEN_BOLD+"#################################################################################################################################"+"\u001B[0m");
+                           ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:39: error: cannot find symbol
+    System.out.println(ConsoleColors.RED_BOLD+">>>"+" "+ConsoleColors.BLACK_BOLD+stack.pop()+"\u001B[0m");  //removing element one by one from stack by using methos pop and printing it
+                       ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:39: error: cannot find symbol
+    System.out.println(ConsoleColors.RED_BOLD+">>>"+" "+ConsoleColors.BLACK_BOLD+stack.pop()+"\u001B[0m");  //removing element one by one from stack by using methos pop and printing it
+                                                        ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:41: error: cannot find symbol
+        System.out.println(ConsoleColors.GREEN_BOLD+"#################################################################################################################################"+"\u001B[0m");
+                           ^
+  symbol:   variable ConsoleColors
+  location: class announcements
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java:1: error: semanticdb-javac: unknown flag 'STUFF\SEM'
+import java.io.*;
+^
+Note: E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\announcements.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors
+2023.06.20 09:12:02 INFO  time: code lens generation in 1.06s
+2023.06.20 09:12:36 WARN  no build target for: E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java
+2023.06.20 09:12:37 WARN  Running javac-semanticdb failed for file:///E:/Mine/AMRITA%20STUFF/SEM%202/21AIE111-Data%20Structure%20&%20Algorithms/Project/Code/DSA-END_SEM-2-main/src/CheckAttendence.java. Output:
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:4: error: package org.apache.poi.ss.usermodel does not exist
+import org.apache.poi.ss.usermodel.DataFormatter;
+                                  ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:5: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFCell;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:6: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFRow;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:7: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:8: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:12: error: cannot find symbol
+	private LoginPage Loginpage_object = new LoginPage();
+	        ^
+  symbol:   class LoginPage
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:12: error: cannot find symbol
+	private LoginPage Loginpage_object = new LoginPage();
+	                                         ^
+  symbol:   class LoginPage
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:17: error: cannot find symbol
+		XSSFWorkbook workbook = new XSSFWorkbook(FileReader);  // taking workbook from that excel file
+		^
+  symbol:   class XSSFWorkbook
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:17: error: cannot find symbol
+		XSSFWorkbook workbook = new XSSFWorkbook(FileReader);  // taking workbook from that excel file
+		                            ^
+  symbol:   class XSSFWorkbook
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:18: error: cannot find symbol
+		XSSFSheet sheet = workbook.getSheetAt(0); // taking sheet1 from that workbook
+		^
+  symbol:   class XSSFSheet
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:21: error: cannot find symbol
+		XSSFRow row_at_zero = sheet.getRow(0);   // from sheet getting row zero
+		^
+  symbol:   class XSSFRow
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:23: error: cannot find symbol
+			XSSFRow row = sheet.getRow(r);  // from sheet getting row by row
+			^
+  symbol:   class XSSFRow
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:24: error: cannot find symbol
+			XSSFCell cell_at_zero = row.getCell(0);  // getting coloumn zero from above row class
+			^
+  symbol:   class XSSFCell
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:25: error: cannot find symbol
+			DataFormatter dataformatter_object = new DataFormatter(); // formats data from one type to another
+			^
+  symbol:   class DataFormatter
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:25: error: cannot find symbol
+			DataFormatter dataformatter_object = new DataFormatter(); // formats data from one type to another
+			                                         ^
+  symbol:   class DataFormatter
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:35: error: cannot find symbol
+			XSSFCell cell = row_at_zero.getCell(c);      // now checking coloumns one by one in row zero
+			^
+  symbol:   class XSSFCell
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:36: error: cannot find symbol
+			DataFormatter dFormatter = new DataFormatter();
+			^
+  symbol:   class DataFormatter
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:36: error: cannot find symbol
+			DataFormatter dFormatter = new DataFormatter();
+			                               ^
+  symbol:   class DataFormatter
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:44: error: cannot find symbol
+			XSSFRow specificrow = sheet.getRow(var22); // getting specific var22 row, var22 contains the row number from before loop
+			^
+  symbol:   class XSSFRow
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:47: error: cannot find symbol
+			XSSFCell Specificcell = specificrow.getCell(var12);   // getting specific var12 coloumn, var12 contains the coloumn number from before loop
+			^
+  symbol:   class XSSFCell
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:48: error: cannot find symbol
+			DataFormatter dFormatter1 = new DataFormatter();  // formats data from one type to another
+			^
+  symbol:   class DataFormatter
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:48: error: cannot find symbol
+			DataFormatter dFormatter1 = new DataFormatter();  // formats data from one type to another
+			                                ^
+  symbol:   class DataFormatter
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:51: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:52: error: cannot find symbol
+				System.out.println(ConsoleColors.RED_BOLD+"               | ATTENDENCE NOT UPDATED |"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:53: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:57: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:58: error: cannot find symbol
+				System.out.println(ConsoleColors.PURPLE_BOLD+"  ATTENDENCE PERCENTAGE    --  "+ConsoleColors.BLACK_BOLD+valueObject);
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:58: error: cannot find symbol
+				System.out.println(ConsoleColors.PURPLE_BOLD+"  ATTENDENCE PERCENTAGE    --  "+ConsoleColors.BLACK_BOLD+valueObject);
+				                                                                               ^
+  symbol:   variable ConsoleColors
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:59: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckAttendence
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckAttendence.java:1: error: semanticdb-javac: unknown flag 'STUFF\SEM'
+import java.io.FileInputStream;
+^
+30 errors
+2023.06.20 09:12:37 WARN  no build target for: E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java
+2023.06.20 09:12:39 WARN  Running javac-semanticdb failed for file:///E:/Mine/AMRITA%20STUFF/SEM%202/21AIE111-Data%20Structure%20&%20Algorithms/Project/Code/DSA-END_SEM-2-main/src/CheckFees.java. Output:
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:4: error: package org.apache.poi.ss.usermodel does not exist
+import org.apache.poi.ss.usermodel.DataFormatter;
+                                  ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:5: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFCell;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:6: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFRow;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:7: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:8: error: package org.apache.poi.xssf.usermodel does not exist
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+                                    ^
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:12: error: cannot find symbol
+	private LoginPage Loginpage_object = new LoginPage();
+	        ^
+  symbol:   class LoginPage
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:12: error: cannot find symbol
+	private LoginPage Loginpage_object = new LoginPage();
+	                                         ^
+  symbol:   class LoginPage
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:19: error: cannot find symbol
+		XSSFWorkbook Workbook = new XSSFWorkbook(FileReader); // taking workbook from that excel file
+		^
+  symbol:   class XSSFWorkbook
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:19: error: cannot find symbol
+		XSSFWorkbook Workbook = new XSSFWorkbook(FileReader); // taking workbook from that excel file
+		                            ^
+  symbol:   class XSSFWorkbook
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:20: error: cannot find symbol
+		XSSFSheet sheet = Workbook.getSheetAt(0); // taking sheet1 from that workbook
+		^
+  symbol:   class XSSFSheet
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:23: error: cannot find symbol
+		XSSFRow Row_at_zero = sheet.getRow(0); // from sheet getting row zero
+		^
+  symbol:   class XSSFRow
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:25: error: cannot find symbol
+			XSSFRow row = sheet.getRow(r);   // from sheet getting row by row
+			^
+  symbol:   class XSSFRow
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:26: error: cannot find symbol
+			XSSFCell cell_at_zero = row.getCell(0);  // getting coloumn zero from above row class
+			^
+  symbol:   class XSSFCell
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:27: error: cannot find symbol
+			DataFormatter dfFormatter = new DataFormatter();  // formats data from one type to another
+			^
+  symbol:   class DataFormatter
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:27: error: cannot find symbol
+			DataFormatter dfFormatter = new DataFormatter();  // formats data from one type to another
+			                                ^
+  symbol:   class DataFormatter
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:36: error: cannot find symbol
+			XSSFCell cell = Row_at_zero.getCell(c);  // now checking coloumns one by one in row zero
+			^
+  symbol:   class XSSFCell
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:37: error: cannot find symbol
+			DataFormatter dFormatter = new DataFormatter();  // formats data from one type to another
+			^
+  symbol:   class DataFormatter
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:37: error: cannot find symbol
+			DataFormatter dFormatter = new DataFormatter();  // formats data from one type to another
+			                               ^
+  symbol:   class DataFormatter
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:49: error: cannot find symbol
+		XSSFRow Specificrow1 = sheet.getRow(var222);  //getting row at row number var222
+		^
+  symbol:   class XSSFRow
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:50: error: cannot find symbol
+		XSSFCell specificcell1 = Specificrow1.getCell(var32); //getting cell at row number var222 and coloumn number var32
+		^
+  symbol:   class XSSFCell
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:51: error: cannot find symbol
+		XSSFCell specificcell2 = Specificrow1.getCell(var322); //getting cell at row number var222 and coloumn number var322
+		^
+  symbol:   class XSSFCell
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:52: error: cannot find symbol
+		DataFormatter dFormatter1 = new DataFormatter();
+		^
+  symbol:   class DataFormatter
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:52: error: cannot find symbol
+		DataFormatter dFormatter1 = new DataFormatter();
+		                                ^
+  symbol:   class DataFormatter
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:57: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:58: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            TOTAL FEES"+ConsoleColors.RED_BOLD+" == "+ConsoleColors.BLACK_BOLD+"NOT UPDATED"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:58: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            TOTAL FEES"+ConsoleColors.RED_BOLD+" == "+ConsoleColors.BLACK_BOLD+"NOT UPDATED"+"\u001B[0m");
+				                                                                    ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:58: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            TOTAL FEES"+ConsoleColors.RED_BOLD+" == "+ConsoleColors.BLACK_BOLD+"NOT UPDATED"+"\u001B[0m");
+				                                                                                                  ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:62: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:63: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            TOTAL FEES"+ConsoleColors.RED_BOLD+" == "+ConsoleColors.BLACK_BOLD+fees+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:63: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            TOTAL FEES"+ConsoleColors.RED_BOLD+" == "+ConsoleColors.BLACK_BOLD+fees+"\u001B[0m");
+				                                                                    ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:63: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            TOTAL FEES"+ConsoleColors.RED_BOLD+" == "+ConsoleColors.BLACK_BOLD+fees+"\u001B[0m");
+				                                                                                                  ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:68: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            DUE"+ConsoleColors.RED_BOLD+"        == "+ConsoleColors.BLACK_BOLD+"NOT UPDATED"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:68: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            DUE"+ConsoleColors.RED_BOLD+"        == "+ConsoleColors.BLACK_BOLD+"NOT UPDATED"+"\u001B[0m");
+				                                                             ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:68: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            DUE"+ConsoleColors.RED_BOLD+"        == "+ConsoleColors.BLACK_BOLD+"NOT UPDATED"+"\u001B[0m");
+				                                                                                                  ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:69: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:74: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            DUE"+ConsoleColors.RED_BOLD+"        == "+ConsoleColors.BLACK_BOLD+due+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:74: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            DUE"+ConsoleColors.RED_BOLD+"        == "+ConsoleColors.BLACK_BOLD+due+"\u001B[0m");
+				                                                             ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:74: error: cannot find symbol
+				System.out.println(ConsoleColors.BLUE_BOLD+"            DUE"+ConsoleColors.RED_BOLD+"        == "+ConsoleColors.BLACK_BOLD+due+"\u001B[0m");
+				                                                                                                  ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:75: error: cannot find symbol
+				System.out.println(ConsoleColors.GREEN_BOLD+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+"\u001B[0m");
+				                   ^
+  symbol:   variable ConsoleColors
+  location: class CheckFees
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckFees.java:1: error: semanticdb-javac: unknown flag 'STUFF\SEM'
+import java.io.FileInputStream;
+^
+40 errors
+2023.06.20 09:12:39 WARN  no build target for: E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java
+2023.06.20 09:12:40 WARN  Running javac-semanticdb failed for file:///E:/Mine/AMRITA%20STUFF/SEM%202/21AIE111-Data%20Structure%20&%20Algorithms/Project/Code/DSA-END_SEM-2-main/src/CheckinActivity.java. Output:
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java:9: error: cannot find symbol
+        LoginPage l = new LoginPage();
+        ^
+  symbol:   class LoginPage
+  location: class CheckinActivity
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java:9: error: cannot find symbol
+        LoginPage l = new LoginPage();
+                          ^
+  symbol:   class LoginPage
+  location: class CheckinActivity
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java:16: error: cannot find symbol
+        LoginPage l1 = new LoginPage();
+        ^
+  symbol:   class LoginPage
+  location: class CheckinActivity
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java:16: error: cannot find symbol
+        LoginPage l1 = new LoginPage();
+                           ^
+  symbol:   class LoginPage
+  location: class CheckinActivity
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java:24: error: cannot find symbol
+        LoginPage l1 = new LoginPage();
+        ^
+  symbol:   class LoginPage
+  location: class CheckinActivity
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java:24: error: cannot find symbol
+        LoginPage l1 = new LoginPage();
+                           ^
+  symbol:   class LoginPage
+  location: class CheckinActivity
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\CheckinActivity.java:2: error: semanticdb-javac: unknown flag 'STUFF\SEM'
+import java.io.*;
+^
+7 errors
+2023.06.20 09:12:41 WARN  no build target for: E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java
+2023.06.20 09:12:42 WARN  Running javac-semanticdb failed for file:///E:/Mine/AMRITA%20STUFF/SEM%202/21AIE111-Data%20Structure%20&%20Algorithms/Project/Code/DSA-END_SEM-2-main/src/MainPage.java. Output:
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:9: error: cannot find symbol
+		LoginPage l = new LoginPage();
+		^
+  symbol:   class LoginPage
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:9: error: cannot find symbol
+		LoginPage l = new LoginPage();
+		                  ^
+  symbol:   class LoginPage
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:10: error: cannot find symbol
+		RegistrationPage q = new RegistrationPage();
+		^
+  symbol:   class RegistrationPage
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:10: error: cannot find symbol
+		RegistrationPage q = new RegistrationPage();
+		                         ^
+  symbol:   class RegistrationPage
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:11: error: cannot find symbol
+		System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+"                                       "+ConsoleColors.RED_BOLD_BRIGHT+"                        AMRITA VISWA VIDHYAPEETAM");
+		                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:11: error: cannot find symbol
+		System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+"                                       "+ConsoleColors.RED_BOLD_BRIGHT+"                        AMRITA VISWA VIDHYAPEETAM");
+		                                                                                                    ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:14: error: cannot find symbol
+		System.out.println(ConsoleColors.BLACK_BOLD+"----------------------------------------------------------------"+"\u001B[0m");
+		                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:17: error: cannot find symbol
+		System.out.println(ConsoleColors.BLACK_BOLD+"----------------------------------------------------------------"+"\u001B[0m");
+		                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:18: error: cannot find symbol
+		System.out.println("                                             "+ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.CYAN_BOLD+"|||  ENTER THE OPTION |||"+"\u001B[0m");
+		                                                                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:18: error: cannot find symbol
+		System.out.println("                                             "+ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.CYAN_BOLD+"|||  ENTER THE OPTION |||"+"\u001B[0m");
+		                                                                                                          ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:21: error: cannot find symbol
+	System.out.println(ConsoleColors.BLACK_BOLD+"----------------------------------------------------------------"+"\u001B[0m");
+	                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:24: error: cannot find symbol
+	System.out.println(ConsoleColors.BLACK_BOLD+"----------------------------------------------------------------"+"\u001B[0m");
+	                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:25: error: cannot find symbol
+	System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.CYAN_BOLD+"                                             |||  ENTER THE OPTION |||"+"\u001B[0m");
+	                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:25: error: cannot find symbol
+	System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.CYAN_BOLD+"                                             |||  ENTER THE OPTION |||"+"\u001B[0m");
+	                                                          ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:36: error: cannot find symbol
+		System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.PURPLE_BOLD+"                                               %%% ENTER THE CORRECT OPTION %%%"+"\u001B[0m");
+		                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:36: error: cannot find symbol
+		System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.PURPLE_BOLD+"                                               %%% ENTER THE CORRECT OPTION %%%"+"\u001B[0m");
+		                                                          ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:41: error: cannot find symbol
+	System.out.println(ConsoleColors.BLACK_BOLD+"----------------------------------------------------------------"+"\u001B[0m");
+	                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:44: error: cannot find symbol
+	System.out.println(ConsoleColors.BLACK_BOLD+"-----------------------------------------------------------------"+"\u001B[0m");
+	                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:45: error: cannot find symbol
+	System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.CYAN_BOLD+"                                             |||  ENTER THE OPTION |||"+"\u001B[0m");
+	                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:45: error: cannot find symbol
+	System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.CYAN_BOLD+"                                             |||  ENTER THE OPTION |||"+"\u001B[0m");
+	                                                          ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:58: error: cannot find symbol
+		System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.RED_BOLD_BRIGHT+"                                               %%%  ENTER THE CORRECT OPTION %%%"+"\u001B[0m");
+		                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:58: error: cannot find symbol
+		System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.RED_BOLD_BRIGHT+"                                               %%%  ENTER THE CORRECT OPTION %%%"+"\u001B[0m");
+		                                                          ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:62: error: cannot find symbol
+	System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.RED_BOLD_BRIGHT+"                                               %%%  ENTER THE CORRECT OPTION %%%"+"\u001B[0m");
+	                   ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:62: error: cannot find symbol
+	System.out.println(ConsoleColors.BANANA_YELLOW_BACKGROUND+ConsoleColors.RED_BOLD_BRIGHT+"                                               %%%  ENTER THE CORRECT OPTION %%%"+"\u001B[0m");
+	                                                          ^
+  symbol:   variable ConsoleColors
+  location: class MainPage
+E:\Mine\AMRITA STUFF\SEM 2\21AIE111-Data Structure & Algorithms\Project\Code\DSA-END_SEM-2-main\src\MainPage.java:1: error: semanticdb-javac: unknown flag 'STUFF\SEM'
+import java.awt.color.ProfileDataException;
+^
+25 errors
+2023.06.20 09:12:56 INFO  Shutting down server
+2023.06.20 09:12:56 INFO  shutting down Metals
+2023.06.20 09:12:56 INFO  Exiting server

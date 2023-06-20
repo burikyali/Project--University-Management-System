@@ -1,0 +1,67 @@
+Check Login Activity---------------------------------
+
+Creates object of LoginPage. 
+Reads Date and time using DateTimeFormater and LocalDateTime.
+
+FileWriter and PrintWriter creates Loginactivity file to store the timestamps of the
+login and logout activity.
+
+After each login and logout activity the timestamps gets printed as logs in the 
+LoginActivity file.
+
+
+LoginActivity() reads the LoginActivity file and prints in terminal.  it read the file
+line by line and if it encounters any non empty line it uses array to split the string
+into desirable format. splitting the line with this symbol "," ,
+by threee storing three variables in array index 0,1,2 of the array.
+
+If the line qncountered is null it skips the line and goes to another line.
+
+
+
+
+Give Attendance ---------------------------
+
+We declare all the variables we are using in this class.
+GiveAttendance is used for giving attendance only accesed by teachers.
+
+For Attendence By Roll No. () the attendance is updated according to each roll no.
+
+DataFormatter is used to convert the value obtained from the excel file into a string
+format as the default read value cannot be used to print as string.
+
+we use fileinputstream to read the excel file and intialize a new workbook to read the rows
+and columns of the excel file.
+
+getSheet gets the sheet at the specified index and we get the lastrow numer and the
+last cell number of the row.
+
+We iterate through the rows until we get the match for the roll no. and once we get a
+match we store the r value (the row value) as var2 and set tf23 as false. If else,
+tf23 is set as true and it prints "Roll No. Not found".
+
+
+Now for updating attendance we print all the subjects and depending on selection,
+ie. if it's 1 it sets g1 to "DsaAttended" and g2 to "DsaTotalClasess" and it does this for 
+each clasess and it calls attendance() method where the actual attendance updation happens.
+
+In attendance it reads the excel file using XSSFWorkbook and sets bg to get row0.
+It then iterates through each columns (by cols using sheet.getrow.getlastcellnum())
+and then if it stores the value of that cell and checks if it equals g1 and g2. If it
+encounters the g1 and g2 values (ie. the subjects 'Attended' & 'Totalclases') the values of those
+gets stored in var and var11 respectively.
+
+No we get the row from var2 and the cells of "ClassAttended" And "Total Clasess" from
+var and var11 respecitlvely. THis is done by XSFFROw and XSSFCell and the values in those
+cells are stored as strings v34 and v342. 
+
+Now we print each 
+
+
+
+
+
+
+
+
+
